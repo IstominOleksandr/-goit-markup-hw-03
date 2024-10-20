@@ -111,6 +111,10 @@ nav ul li:last-child {
 }
 .section-first {
     background-color: #2E2F42;
+    height: 600px;
+    padding: 188px 0;
+    justify-content: center;
+    align-items: center;
 }
 .text-h1 {
     font-weight: 700;
@@ -119,56 +123,129 @@ nav ul li:last-child {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .button-order {
     font-weight: 500;
+    max-width: 169px;
+    min-width: 169px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .button-order:hover {
     background-color: #404BBF;
 }
 .none-text-section {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+.section-two {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-container {
+    display: flex;
+    gap: 24px;
+}
+
+.list-main {
+    width: calc((100% - 72px) / 4);
+}
+
 .main-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
+.normal-text {
+    font-size: 16px;
+}
+
+/* Our Team */
+
 .our-team-section {
+    padding: 120px 0;
     text-align: center;
     background-color: #F4F4FD;
 }
-.main-text {
+.main-text-our-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11em;
+    line-height: 1.11;
+    color: #2E2F42;
     letter-spacing: 0.02em;
-    color:#2E2F42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.our-team-list {
+    display: flex;
+    gap: 24px;
 }
 .our-team-li {
     background-color: #ffffff;
+    row-gap: 48px;
+    border-radius: 0px 0px 4px 4px;
 }
 .our-team-h3 {
-        font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color:#2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
 }
+.worker-name {
+    padding: 32px;
+}
+
+/* Portfolio */
+
 .portfolio {
     text-align: center;
+    margin-top: 120px;
+}
+.main-text-portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .portfolio-h3 {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 72px;
 }
 .footer {
     background-color: #2E2F42;
